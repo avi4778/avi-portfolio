@@ -1,0 +1,178 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100%;
+    font-family: 'Montserrat';
+    font-style: sans-serif;
+    overflow-x: hidden;
+  }
+
+  
+/*-----------------wrapper--------------*/
+
+  .wrapper {
+      display: flex;
+      flex-direction: column; 
+  }
+
+  h2 {
+      text-transform: uppercase ;
+      text-align: center;
+      font-size: 2em;
+      padding-top: 5%;
+      letter-spacing: 1px;
+  }
+
+  /*-------------------------------*/
+
+  .intro {
+      height: 100vh;
+      border-bottom: 5px solid black;
+      background-image: url("../images/pexel-1.jpg");
+      background-size: cover;
+      
+  }
+
+  .intro p {
+      text-align: center;
+      padding-top: 10%;
+      font-size: 2em;
+      color: white;
+
+  }
+
+  .btn {
+    background-color:transparent;
+    color: white;
+    font-size: 1.2em;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+    
+  }
+
+  .btn:hover {
+    color: skyblue ;
+  }
+
+  /*--------------------------------------*/
+  .edu {
+    
+    /* border-bottom: 5px solid black;*/
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .education {
+    display: grid;
+    text-align: center;
+    color: white;
+    grid-template-columns:1fr 1fr;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    justify-content: space-around;
+    column-gap: 10%;
+    
+  }
+
+  .education-1, .education-2 {
+    background-color: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .education-1 a, .education-2 a {
+    color: white;
+    font-size: 1.6em;
+    text-decoration: none;
+  }
+
+  .education-1 p, .education-2 p {
+    font-size: 1.2em;
+  }
+
+  .education-1 a:hover, .education-2 a:hover {
+    color: skyblue;
+  }
+/*------------------------------------*/
+
+  .project {
+    /*border-bottom: 5px solid black;*/    
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .pr {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    margin-bottom: 10%;
+    margin-top: 5%;
+    row-gap: 3%;
+    column-gap: 3%;
+    
+
+    
+  }
+  
+  .pr a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+  }
+
+  .pr a:hover {
+    color: skyblue;
+  }
+
+  .pr p {
+    font-size: 1.2em;
+    text-align: center;
+    
+  }
+
+  
+
+  .pr-1, .pr-2, .pr-3 {
+    
+    text-align: center;
+    padding: 2%;
+    border: groove black;
+    background-color: black;
+    color: white;
+  }
+
+  /*--------------------*/
+  .connect {
+    background-color: black;
+    color: white;
+  } 
+
+  .social-links {
+    display: grid;
+    justify-content: space-around;
+    text-decoration: none;
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-align: center;
+    font-size: 2em;
+
+  }
+
+  .social-links a {
+    color: white;
+  }
+
+  .social-links a:hover {
+    color:skyblue;
+  }
+
+ 
